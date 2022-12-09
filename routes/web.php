@@ -5,6 +5,7 @@ use App\Http\Controllers\jurnalcontroller;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DashboardBeritaController;
+use App\Http\Controllers\DashboardJurnalController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -75,6 +76,9 @@ Route::get('/dashboard', function(){
 
 Route::resource('/dashboard/berita_tampil',
 DashboardBeritaController::class);
+
+Route::resource('/dashboard/jurnal_tampil',
+DashboardJurnalController::class);
 
 
 

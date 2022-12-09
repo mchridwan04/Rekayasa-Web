@@ -12,6 +12,11 @@
                   Berita
                </span>
             </a>
+            <a href="/dashboard/jurnal_tampil" class="nav-link">
+               <span data-feather="file">
+                  Jurnal
+               </span>
+            </a>
          </li>
       </ul>
    </div>
